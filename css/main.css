@@ -735,7 +735,7 @@ hr {
 
 @media only screen and (min-width: 600px) {
   .hero__text {
-    padding: 0 20px;
+    padding: 0 80px;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -744,6 +744,9 @@ hr {
     padding: 52px 65px;
     display: flex;
     align-items: flex-start;
+  }
+  .hero__text {
+    padding: 0 120px;
   }
   .form__button {
     max-width: 188px;
