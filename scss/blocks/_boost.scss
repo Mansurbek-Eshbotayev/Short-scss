@@ -1,0 +1,41 @@
+.boost{
+  padding: 90px 0;
+  background-image: url(../images/bk-two.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.boost__title{
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -0.7px;
+color: #FFFFFF;
+}
+
+.boost__wrap{
+  text-align: center;
+}
+
+@include media-min(768px){
+  .boost {
+    padding: 65px 0;
+  }
+}
+
+@include media-min(1024px){
+  .boost {
+    padding: 57px 0;
+  }
+
+  .boost__title{
+    font-size: 40px;
+line-height: 48px;
+  }
+}
