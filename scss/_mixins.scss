@@ -33,3 +33,9 @@
     @content;
   }
 }
+
+@mixin media-min ($min-width:600px) {
+  @media only screen and (min-width:$min-width) {
+    @content;
+  }
+}

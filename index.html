@@ -5,10 +5,154 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template</title>
+  <title>Short SCSS</title>
 </head>
 <body>
 
+  <!-- header -->
   
+  <header class="header">
+    
+    <div class="container">
+      
+      <div class="header__inner">
+        
+        <a class="header__logo" href="./index.html">
+          <img src="./images/logo-black.svg" alt="site-logo"
+          srcset="./images/logo-black.svg 1x , ./images/logo-black@2x.svg 2x">
+        </a>
+
+        <button class="header__btn">
+        </button>
+        
+        <nav class="header__nav nav">
+          
+          <ul class="nav__list">
+            
+            <li class="nav__item">
+              
+              <a class="nav__link" href="#">
+                Features
+              </a>
+              
+            </li>
+            
+            <li class="nav__item">
+              
+              <a class="nav__link" href="#">
+                Pricing
+              </a>
+              
+            </li>
+            
+            <li class="nav__item">
+              
+              <a class="nav__link" href="#">
+                Resources
+              </a>
+              
+            </li>
+            
+          </ul>
+
+          <div class="nav__right right">
+          
+            <a class="right__link" href="#">
+              Login
+            </a>
+            
+            <a class="right__link right__send" href="#">
+              Sign Up
+            </a>
+            
+          </div>
+          
+        </nav>
+        
+       
+        
+      </div>
+      
+    </div>
+    
+  </header>
+  <!-- header -->
+
+  <main class="site-main">
+
+    <!-- Section Hero -->
+
+    <section class="hero">
+
+      <div class="container">
+
+        <div class="hero__info">
+
+          <div class="hero__wrap">
+
+            <h1 class="hero__title">
+              More than just shorter links
+            </h1>
+
+          </div>
+
+          <div class="hero__wrap hero__wrap--text">
+          
+            <p class="hero__text">
+              Build your brand’s recognition and get detailed insights on how your links are performing.
+            </p>
+            
+          </div>
+
+          <a class="our-link" href="#">
+            Get Started
+          </a>
+
+          <div class="hero__inner">
+
+            <form class="hero__form  form" action="https://echo.htmlacademy.ru/courses" autocomplete="off" method="POST">
+
+              <label class="form__label">
+
+                <input class="form__input" type="url" name="your_link" minlength="3"  placeholder="Shorten a link here..." required>
+
+                <span class="form__span">Please add a link</span>
+
+              </label>
+
+              <button class="form__button" type="submit">
+                Shorten It!
+              </button>
+    
+              
+    
+            </form>
+
+          </div>
+
+          
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Advenced -->
+
+  <section class="advenced">
+
+    <div class="container">
+
+
+    </div>
+
+  </section>
+  <!-- Advenced -->
+
+  </main>
+
+  
+  <script src="./js/main.js"></script>
 </body>
 </html>
